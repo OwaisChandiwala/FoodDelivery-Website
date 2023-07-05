@@ -1,0 +1,82 @@
+STEPS FOR BACKEND INITIALIZATION
+node -v
+npm -v
+npm init
+npm install express
+npm install -g nodemon -- Server run forbackend
+npm install  mongoose
+npm install
+create index.js file .. main file -- also known as controller in mvc
+create app object
+
+connection with database
+Create Schema of your products/ foods
+Create Route folder
+Create API's in router files
+Use route files in index.js
+
+
+
+
+-----------------------GET API-------------------------------------------
+Step1: Create api -- backend -- routes file burgers.js
+step2: User burgers.js routes file in Index.js and install cors lib for access url in front end
+Step3: Test API usinf thunder client / Postman app
+Step4: Create Service File for API and create it's function calling API -- connect.service.ts
+Step5: Call GET API to home and burgers component.ts files
+Step6: Show all burgers data in Home and Burgers Component using ngFor Directive
+
+
+
+
+-------------------------------POST API----------------------------------------
+Step1: Create post API in Burger.js
+Step2: Install body-parser lib in index.js
+Step3: Test API usinf thunder client / Postman app
+Step4: Create API function calling in connect.service.ts
+Step5: Create Reactive form in burgers.component.ts
+Step6: Create Reactive form in burgers.component.html
+
+Image/File uplaod
+Step7: Create (change) Event in Reactive form & pass $event value
+Step7: Create (change) Event function & convert file data to base64 format
+
+Step8: Create Form submit function pass form data into service file post method
+
+
+
+---------------------------------------DELETE API-------------------------------------
+Step1: Create a delete API by dynamic routing by id in burgerroute.js
+Step2: Set the status for the same to show if the data has been deleted or not.
+Step3: Test API using Thunderclient or Postman
+
+
+
+---------------user API   user.js  -- sign in / sign up
+POST for Registration
+Get API for only one user-- Search
+Updata address api & Password, Mobile , Email
+
+
+----------------Order API  ------order.js --- cart.component
+Post API for Order the meal for one user --- meal--- [], username, total int, Quatity int, Mobileno
+
+
+
+
+
+
+
+
+
+
+
+
+AFTER DOING NPM INIT JUST USEUPPER KEY FOR EXECUTING COMMAND .. OR ELSE IT WILL GIVE ERROR
+
+EXPRESS is responsible for passing data
+module is .js files
+MVC = MODEL VIEW CONTROLLER -- MODEL IS USED TO STORE STRUCTURED DATA
+VIEW- TEMPLATE ENGIENE -- ANGULAR OR ANYTHING
+CONTROLLER -- index.js file
+

@@ -1,0 +1,55 @@
+<div class="con">
+  <nav id="fixed">
+     <ul>
+        <li> <a routerLink="/"> Home</a></li>
+       <li (mouseleave)="hide()">
+         <h4><button (mouseover)="show()" >Foods</button></h4>
+         <ol  [style.display]="dis">
+           <li><a routerLink="cat/pizza"> Pizza</a></li>
+           <li><a routerLink="cat/burger" > Burger</a></li>
+           <li><a  routerLink="cat/shawarma"> Shawarma</a></li>
+         </ol>
+       </li>
+
+
+       <li (mouseleave)="hide1()">
+         <h4><Button (mouseover)="show1()">Profile</Button></h4>
+         <ol  [style.display]="bot">
+            <li><button><a routerLink="auth/sign-up" > Sign-up</a></button> </li>
+            <li><button> <a routerLink="auth/sign-in"> Sign-in</a></button></li>
+            <li>
+              <button><a routerLink="user">Users</a></button>
+            </li>
+         </ol>
+       </li>
+
+       <li><a routerLink="about" > About</a></li>
+       <li><a routerLink="contact" > Contact</a> </li>
+
+
+        <li>
+          <form>
+            <input type="text" placeholder="search" #inpsr>
+            <button (click)="searchProduct(inpsr.value)">Search</button>
+          </form>
+        </li>
+
+
+          <li >
+            <a routerLink="cat/cart/1/Pro" >
+            <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+          <li>
+            <button (click)="openForm()">
+              <i class="fa-brands fa-product-hunt"></i>
+            </button>
+          </li>
+
+    </ul>
+
+
+
+  </nav>
+</div>
+

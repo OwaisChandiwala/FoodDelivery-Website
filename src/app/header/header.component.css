@@ -1,0 +1,48 @@
+
+.con{
+  background-image: url("https://img.freepik.com/free-psd/happy-delivery-man-uniform-riding-motorcycle-with-bag-map-with-isolated-background-delivery-concept-3d-render-cartoon-character_1150-61955.jpg?w=996&t=st=1681380938~exp=1681381538~hmac=30db9ac226435a09c756063c445ab3136fe6979fd6cb9767f00a2cb97a291085");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 450px;
+}
+
+ li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  width: 100%;
+  list-style-type:none ;
+  display: flex;
+  justify-content: space-around;
+}
+ ol{
+  list-style-type: none;
+  margin-left: -65px;
+  /* display: none; */
+ }
+  a{
+  text-decoration: none;
+  color: white;
+ }
+
+
+  li{
+      padding-left: 2vw;
+      color: black;
+      font-style: bold;
+      font-size: 1.5vw;
+      /* width: 10vw; */
+  }
+  /* #fixed{
+    position: sticky;
+  } */
+
+  #fixed button{
+    background-color: transparent;
+    border: none;
+    color: black ;
+    font-style: bold;
+    font-size: 1.5vw;
+  }

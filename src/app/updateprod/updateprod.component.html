@@ -1,0 +1,36 @@
+<form [formGroup]="updateProduct">
+
+  <div class="inp1">
+    <label for="">Name</label>
+    <input type="text" id="" formControlName="prodName">
+  </div>
+  <div class="inp6">
+    <label for="">ID</label>
+    <input type="text" id="" formControlName="prodID">
+  </div>
+
+  <div class="inp2">
+    <img [src]="imgurl" alt="" width="80px" height="80px">
+    <label for="im">Image</label>
+    <input type="file" id="im" (change)="selectImage($event)">
+  </div>
+
+  <div class="inp3">
+    <label for="">Price</label>
+    <input type="text" formControlName="prodPrice">
+  </div>
+  <div class="inp4">
+    <label for="">QTY</label>
+    <input type="text" formControlName="prodQty">
+  </div>
+  <div class="inp5">
+    <label for="">Category</label>
+    <select formControlName="category">
+      <option value="burger">Burger</option>
+      <option value="pizza">Pizza</option>
+      <option value="shawarma">Shawarma</option>
+    </select>
+  </div>
+  <button (click)="updateData()">Submit</button>
+
+</form>

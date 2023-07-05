@@ -1,0 +1,258 @@
+<!-- <mat-menu>
+  <button mat-menu-item>Pizza</button>
+  <button mat-menu-item>Burger</button>
+  <button mat-menu-item>Shawarma</button>
+
+</mat-menu> -->
+
+<div class="con1">
+  <div class="sec1">
+    <img
+      src="https://media.istockphoto.com/id/843318742/vector/illustrations-of-classical-italian-cuisine-pizza-and-different-ingredients-fast-food-pictures.jpg?s=612x612&w=0&k=20&c=0-bF2OisPUEoWQ1BXyOXZrq5fbhlTesQYR-n_yo7X8c="
+      alt="" width="80%">
+    <h3>Eat Sleep And</h3> <br>
+    <h1>Super Delicious
+      <br> Foods In Town!
+    </h1> <br>
+    <h2> Hungry? Grab Your Meal Now</h2>
+    <button id="reg"> <a href="#" style="text-decoration: none; color: aliceblue;"> Register For free </a></button>
+  </div>
+  <div class="image1">
+    <img
+      src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pizza-offer-template-design-62f139f067ade840cb65653fc98d3c44_screen.jpg?ts=1653380378"
+      alt="" height="370px">
+  </div>
+</div>
+
+<div class="con2">
+  <div class="sec2" [style.backgroundColor]="col1" (mouseover)="showMenu('dis11')" (mouseleave)="hideMenu('dis11')">
+    <img src="https://demo.themehurst.net/html/pizzaify/images/services/barger.png" alt="" height="300px" width="100%">
+    <span>
+      <div>
+        <h2 style="padding-top: .5vw;">Mexican Burger</h2>
+        <div class="hide-menu" [style.display]="dis11"><button (click)="showburger()">See Menu</button></div>
+      </div>
+    </span>
+  </div>
+
+  <div class="sec2" [style.backgroundColor]="col2" (mouseover)="showMenu('dis12')" (mouseleave)="hideMenu('dis12')">
+    <img src="../../assets/img/pizza.png" alt="" height="300px" width="100%">
+    <span>
+      <div [style.backgroundColor]="col2">
+        <h2 style="padding-top: .5vw;">Fresh Pan Pizza's</h2>
+        <div class="hide-menu" [style.display]="dis12"><button>See Menu</button></div>
+      </div>
+    </span>
+  </div>
+
+  <div class="sec2" [style.backgroundColor]="col3" (mouseover)="showMenu('dis13')" (mouseleave)="hideMenu('dis13')">
+    <img
+      src="../../assets/img/png-transparent-shawarma-arab-cuisine-falafel-kebab-shawarma-barbecue-painted-barbecue-food-related-watercolor-painting-food-happy-birthday-vector-images-removebg-preview.png"
+      alt="" height="300px" width="100%">
+    <span>
+      <div>
+        <h2 style="padding-top: .5vw;">Cheesy Shawarma</h2>
+        <div class="hide-menu" [style.display]="dis13"><button>See Menu</button></div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="con3">
+  <div>
+    <h5 style="color: red;">WE PUT 100% OF LOVE AND DEDICATION</h5> <br>
+    <h2 style="font-size: 48px;"> BURGERS, PIZZA'S, AND BEST SHAWARMA IN TOWN</h2>
+    <span style="font-style: strong;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea nam incidunt?
+      Commodi cumque a veritatis. Ex adipisci facere, architecto sapiente illo est qui consequatur optio voluptatem odio
+      corrupti <br> eaque suscipit voluptate modi autem! Id.</span> <br> <br>
+    <i class="bi bi-bag-check-fill"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill"
+      viewBox="0 0 16 16" color="red">
+      <path fill-rule="evenodd"
+        d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+    </svg>
+    <span>Additional charge for premium toppings</span> <br>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill"
+      viewBox="0 0 16 16" color="red">
+      <path fill-rule="evenodd"
+        d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+    </svg>
+    <span>Minimum of 2 required.</span> <br>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill"
+      viewBox="0 0 16 16" color="red">
+      <path fill-rule="evenodd"
+        d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+    </svg>
+    <span> Sign-Up for the first time and get 50%OFF on your first order</span>
+  </div>
+  <div>
+    <img src="https://img.freepik.com/free-psd/hot-spicy-burger-social-media-template_505751-2884.jpg?w=2000" alt="">
+  </div>
+</div>
+<br>
+<button class="abt"> <a routerLink="../about-me" style="text-decoration: none; color: aliceblue;"> WHO WE ARE?
+  </a></button>
+
+<div class="con4">
+  <h5 style="text-align: center; color: red;">FRESH FROM GOOD-FOOD</h5>
+  <h1 style="text-align: center;">We Offer People Best Way
+    To Eat Best Food</h1>
+</div>
+<div class="cats">
+  <button style="background-color: yellow ; border-radius: 6px;border: 2px solid yellow;"
+    (click)="show2('all')">ALL-ITEMS</button>
+  <button (click)="show2('shawarmas')">SHAWARMAS</button>
+  <button (click)="show2('burgers')">BURGERS</button>
+  <button (click)="show2('pizzas')">PIZZAS</button>
+
+</div>
+
+<div class="conn1" *ngIf="status == 'pizzas'|| status == 'all'">
+  <div class="secc1">
+    <h2>PIZZAS</h2>
+    <div class="row row-cols-3 g-4 p-3">
+      <div class="col-4 p-2" *ngFor="let data of  pizzalist">
+        <div class="card-group">
+          <img [src]="data.Image" class="card-img-top" alt="Card image cap" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">{{data.PizzaName}}</h5>
+
+            <p class="card-text">Price: {{data.Price}}RS/-</p>
+            <p class="card-text">Qty: {{data.QTY}}</p>
+            <button (click)="addtocart(data._id,data.CATEGORY)">  ADD TO CART </button>
+            <button>  BUY NOW </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="conn2" *ngIf="status == 'burgers' || status == 'all'">
+  <div class="secc2">
+    <h2>BURGERS</h2>
+    <div class="row row-cols-3 g-4 p-3">
+      <div class="col-4 p-2" *ngFor="let data of  burgerslist">
+        <div class="card-group">
+          <img [src]="data.IMAGE" class="card-img-top" src="https://static.toiimg.com/photo/51089680.cms" height="280px"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{data.BurgerName}}</h5>
+            <p class="card-text">{{data.PRICE}}RS/-</p>
+            <button  (click)="addtocart(data._id,data.CATEGORY)"> ADD TO CART </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="conn3" *ngIf="status == 'shawarmas'|| status == 'all'">
+  <div class="secc3">
+    <h2>Shawarma</h2>
+    <div class="row row-cols-3 g-4 p-3">
+      <div class="col-4 p-2" *ngFor="let data of  Shawarmalist">
+        <div class="card-group">
+          <img [src]="data.Image" class="card-img-top" alt="Card image cap" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">{{data.shawarmaName}}</h5>
+
+            <p class="card-text">Price: {{data.Price}}RS/-</p>
+            <p class="card-text">Qty: {{data.QTY}}</p>
+            <button (click)="addtocart(data._id,data.CATEGORY)"> ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="connn1">
+  <div class="seccc1">
+    <img src="https://demo.themehurst.net/html/pizzaify/images/background/testimonial-client.png" alt="">
+  </div>
+  <div class="seccc2">
+    <h4 style="color: red;">It's Simple and Useful</h4>
+    <h1>What our Client Says</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quo saepe <br> asperiores doloribus quos repellat
+      qui nobis. Molestias, neque adipisci?</p>
+    <h3>OWAIS</h3>
+    <h6>Founder</h6>
+  </div>
+</div>
+<div class="connn2">
+  <h2>{{customer}}+ <br>
+    <h4>CUSTOMERS</h4>
+  </h2>
+  <h2>{{client}}+ <br>
+    <h4>Clients</h4>
+  </h2>
+</div>
+
+<div class="connn3">
+
+</div>
+
+<div class="footer">
+  <div class="foot1">
+    <h2 style="font-size: 3.1vw;">GOOD-FOOD</h2>
+    <li>Mumbai, Maharashtra</li>
+    <li>Phone: +91 9876543212</li>
+    <li>Email: supportgoodfood@gmail.com</li>
+    <li>Working Hours : Mon-Friday: 9:00 am to 5:00 pm</li> <br>
+    <h3>Follow On Socials</h3>
+    <div class="icons">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+        viewBox="0 0 16 16">
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+
+      </svg>
+
+      <a href="#"><i class="bi bi-instagram insta"></i> </a>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+        viewBox="0 0 16 16">
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+      </svg>
+      <a href=""><i class="bi bi-linkedin linkedin"></i></a>
+    </div>
+  </div>
+  <div class="foot2">
+    <h2>Quick Links</h2>
+    <h5>
+      <li><a routerLink="about us"> About Us</a></li>
+    </h5>
+    <h5>
+      <li><a routerLink=""> Blog</a></li>
+    </h5>
+    <h5>
+      <li><a routerLink="contact"> Contact</a></li>
+    </h5>
+    <h5>
+      <li> <a routerLink="foods"> Foods</a></li>
+    </h5>
+  </div>
+
+  <div class="foot3">
+    <h2>Email Us</h2>
+    <input type="email" placeholder="Enter your email">
+    <button>Submit</button>
+  </div>
+</div>
+<h3 style="text-align: center; background-color: pink; margin: 0;">Date: {{today | date:"fullDate"}}</h3>
+
+<div class="copyright">
+  <h4 style="position: relative;bottom:0;">Copyright &#169; GOOD-FOOD.com</h4>
+</div>

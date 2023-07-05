@@ -1,0 +1,8 @@
+<div class="card">
+  <div class="items" *ngFor="let cat of cakes">
+    <img [src]="cat.ImagePath" alt="">
+    <h3>{{cat.Name}}</h3>
+    <h3>{{cat.Price}}</h3>
+    <p> Quantity: {{cat.Quantity}} </p>
+  </div>
+</div>

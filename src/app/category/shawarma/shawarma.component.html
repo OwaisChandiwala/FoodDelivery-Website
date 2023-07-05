@@ -1,0 +1,19 @@
+<div class="conn3">
+  <div class="secc3">
+    <h2>Shawarma</h2>
+    <div class="row row-cols-3 g-4 p-3">
+      <div class="col-4 p-2" *ngFor="let data of  Shawarmalist">
+        <div class="card-group">
+          <img [src]="data.Image" class="card-img-top" alt="Card image cap" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">{{data.shawarmaName}}</h5>
+
+            <p class="card-text">Price: {{data.Price}}RS/-</p>
+            <p class="card-text">Qty: {{data.QTY}}</p>
+            <button> <a href="#"> ADD TO CART </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="container" >
+  <h2>BURGERS</h2>
+  <div class="row row-cols-3 g-4 p-3">
+     <div class="col-4 p-2" *ngFor="let data of  burgerslist">
+       <div class="card-group" >
+         <img [src]="data.IMAGE" class="card-img-top" alt="Card image cap"  height="200px">
+         <div class="card-body">
+           <h5 class="card-title">{{data.BurgerName}}</h5>
+
+           <p class="card-text">{{data.PRICE}}RS/-</p>
+           <button (click)="addtocart(data._id)">  ADD TO CART</button>
+         </div> 
+       </div>
+       </div>
+     </div>
+  </div>

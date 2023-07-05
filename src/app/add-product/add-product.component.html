@@ -1,0 +1,34 @@
+
+<form [formGroup]="addProduct" (ngSubmit)="submitData()">
+
+   <div class="inp1">
+    <label for="">Product Name</label>
+    <input type="text" name="name" formControlName="prodName">
+   </div> <br>
+
+   <div class="inp2">
+    <label for="">Product Image</label>
+    <input type="file" (change)="selectImage($event)">
+   </div> <br>
+
+
+    <div class="inp3">
+      <label for="">Category</label>
+      <select formControlName="category" id="">
+        <option value="Burger">Burger</option>
+        <option value="Pizza">Pizza</option>
+        <option value="Shawarma">Shawarma</option>
+      </select>
+    </div> <br>
+
+    <div class="inp2">
+      <label for="">Price</label>
+      <input type="number" formControlName="prodPrice">
+    </div> <br>
+
+    <div class="inp2">
+      <label for="">Quantity</label>
+      <input type="text" formControlName="prodQty">
+    </div> <br>
+    <button (click)="addData()">Submit</button>
+</form>

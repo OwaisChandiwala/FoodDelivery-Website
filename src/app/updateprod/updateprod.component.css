@@ -1,0 +1,17 @@
+div
+{
+  margin: 10px;
+
+}
+#im{
+  display: none;
+}
+label{
+  width: 75px;
+}
+button{
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 80px;
+}
